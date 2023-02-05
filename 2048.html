@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2048 - Rodrigo Sendino Sanz</title>
+        <link rel="stylesheet" href="2048.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+        <script src="2048.js"></script>
+    </head>
+
+    <body>
+        <div id="gameover">
+            <h1 class="endscreen">Game Over</h1>
+            <h2 class="endscreen">Score: <span id="scoreend">0</span></h2>
+            <h2 class="endscreen" style="text-align:center;display: flex;
+            align-content: center;justify-content: center;align-items: center;">
+            MaxScore: <span id="scoremax">0</span> <i class="nes-icon trophy is-medium" id="trophy"></i></h2>
+            <button onclick="reload()" class="buttonreload nes-btn is-warning" id="reload">Retry?</button>
+        </div>
+        <h1>2048</h1>
+        <hr>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="board">
+        </div>
+        <br><br>
+        <button onclick="autoplay()" class="nes-btn is-success" id="autoplay">Autoplay</button>
+    </body>
+
+</html>

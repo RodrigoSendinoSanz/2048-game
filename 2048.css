@@ -1,0 +1,162 @@
+
+*{
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center !important;
+}
+
+#gameover{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 722px;
+    z-index: 42;
+}
+
+hr{
+    width: 500px;
+}
+
+#board{
+    width: 400px;
+    height:400px;
+
+    position: relative;
+    background-color: #ffffff;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.tile {
+    width: 90px;
+    height:90px;
+    border: 5px solid #000000;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x2 {
+    background-color: #F9A007;
+    color: #000000
+}
+
+.x4 {
+    background-color: #F2F907;
+    color: #000000
+}
+
+.x8 {
+    background-color: #73F907;
+    color: #000000;
+}
+
+.x16{
+    background-color: #07F90D;
+    color: #000000;
+}
+
+.x32{
+    background-color: #07F982;
+    color: #000000;
+}
+
+.x64{
+    background-color: #07F9E9;
+    color: #000000;
+}
+
+.x128{
+    font-size: 18px;
+    background-color: #07D4F9;
+    color: #000000;
+}
+
+.x256{
+    font-size: 18px;
+    background-color: #077FF9;
+    color: #000000;
+}
+
+.x512{
+    font-size: 18px;
+    background-color: #0718F9;
+    color: #ffffff;
+}
+
+.x1024{
+    font-size: 16px;
+    background-color: #4C07F9;
+    color: #ffffff;
+}
+
+.x2048{
+    font-size: 16px;
+    background-color: #F907F8;
+    color: #000000;
+}
+
+.x4096{
+    font-size: 16px;
+    background-color: #F90707;
+    color: #000000;
+}
+
+.x8192{
+    font-size: 16px;
+    background-color: #ff2020;
+    color: #000000;
+}
+
+i#trophy{
+    display: none;
+
+}
+
+
+/* By Rodrigo Sendino Sanz
+                                             @@@@@@@@@@@@                                  
+                                    @@........@@@@@@@@@........@@                         
+                              @@....@@                         @@....@%                   
+                           @...@@                                   @@...@                
+                       (%..@(            @@(..............@@#           @...@             
+                     @..,@         (@...@@       @..@      .@&...@         @...@          
+                   @..@         @..@.            @..@            @@..@        @..@        
+                 @..@        @..@                @..@                @..@       @..@      
+               @..@       ,..@                   @..@                   %.@       (..%    
+              @@.....*@  /.@                     @..@                     @.@      @..@   
+                   @.@ @..@                      @..@                      @..%     @..@  
+                       @......@#                 @..@                        @.@     @..@ 
+                           @@...../@             @..@                         @.@     @..@
+                               .@......@         @..@                          ..      #.@
+                                    @......@(    @..@                          @.@     @..
+                                        @@.....(@@..@                          /.(     ...
+          @......@ @......................@ /@......@      @......................   .....
+          @......@  ......................@      @......@/ @.....................&   ,,,,,
+          @..@      #.@                          @..@@@.....(@                            
+           %.@      @.@                          @..@     @......@                        
+           @..@      @.@                         @..@         @......@*                   
+            @..       @.@                        @..@             @#.....%@               
+             @..       @.%                       @..@                 %@......            
+              @..@       @.@                     @..@                     %.@  (..@/      
+               @..@        %.@                   @..@                  %..@    @.....@    
+                 @..@        @..@                @..@                @..@       @..@      
+                   @..@         @..@@            @..@            @...@        @..@        
+                     @..@           @...@@*      @..@      @@...(@         .&..@          
+                       (*..@.             @@/............@@@            /@..,@            
+                          @@...@                                     @...@/               
+                              @@....@@                         @@....@@                   
+                                    @/.......@@@@@@@@@@@.......%@%                        
+*/
